@@ -1,10 +1,10 @@
-
 import "/public/css/plugins.css";
-import "/public/assets/css/home7-style.css"
-import "/styles/common_style.css"
+import "/public/assets/css/home7-style.css";
+import "/styles/common_style.css";
+import "/public/assets/css/inner_pages.css";
 
 import Script from "next/script";
-import Layout  from "/states/layout";
+import Layout from "/states/layout";
 
 export default function App({ Component, pageProps }) {
     return (
@@ -48,6 +48,10 @@ export default function App({ Component, pageProps }) {
 
             <Script
                 src="public/assets/js/scripts.js"
+                strategy="beforeInteractive"
+            ></Script>
+            <Script
+                src="assets/js/inner_pages.js"
                 strategy="beforeInteractive"
             ></Script>
         </Layout>

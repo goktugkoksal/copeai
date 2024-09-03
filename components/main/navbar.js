@@ -16,7 +16,7 @@ export default function Navbar() {
                 >
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" href="/">
                                 Home
                             </a>
                         </li>
@@ -26,8 +26,8 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                Works
+                            <a class="nav-link" href="/faq">
+                                FAQ
                             </a>
                         </li>
                         <li class="nav-item">

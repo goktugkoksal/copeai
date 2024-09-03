@@ -19,6 +19,7 @@ export default function Layout({ children }) {
                     href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
                     rel="stylesheet"
                 />
+                <link rel="stylesheet" href="assets/css/inner_pages.css"></link>
                 <link rel="stylesheet" href="/css/plugins.css" />
                 <link rel="stylesheet" href="/styles/common_style.css" />
                 <link rel="stylesheet" href="/assets/css/home7-style.css" />
