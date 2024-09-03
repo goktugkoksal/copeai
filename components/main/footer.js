@@ -5,8 +5,8 @@ export default function Footer() {
                 <div class="sec-head mb-80">
                     <div class="row">
                         <div class="col-lg-5">
-                            <a href="#" class="logo md-mb80">
-                                <img src="assets/imgs/copeai_long_logo.png" alt="" />
+                            <a href="/" class="logo md-mb80">
+                                <img src="assets/imgs/copeai_white_long_logo.png" alt="" />
                             </a>
                         </div>
                         <div class="col-lg-6">
@@ -35,7 +35,7 @@ export default function Footer() {
                                     <div class="item">
                                         <span class="sub-color">inquiry</span>
                                         <p>info@copeai.com</p>
-                                        <p>(+90)542 504 2232</p>
+                                        <p>+90 542 504 2232</p>
                                     </div>
                                 </div>
                             </div>
@@ -76,12 +76,12 @@ export default function Footer() {
                         </div>
                         <div class="col-lg-4 d-flex justify-content-end">
                             <div class="links sub-color d-flex justify-content-between">
-                                <a href="#" class="active">
+                                <a href="/" class="active">
                                     Home
                                 </a>
-                                <a href="#">Pricing</a>
-                                <a href="#">Works</a>
-                                <a href="#">Contact</a>
+                                <a href="/pricing">Pricing</a>
+                                <a href="/faq">FAQ</a>
+                                <a href="/contact">Contact</a>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,3 @@
-
 import Navbar from "../components/main/navbar";
 export default function Faq() {
     return (
@@ -230,17 +229,17 @@ export default function Faq() {
                         <div class="container section-padding">
                             <div class="call-action text-center mb-80">
                                 <h2 class="">
-                                    <a href="#0">
+                                    <a href="/contact">
                                         Let's Make <br /> Something Great!
                                     </a>
                                     <div class="buton d-flex align-items-center justify-content-center">
-                                        <a href="#0">
+                                        <a href="/contact">
                                             <span class="mb-10">Contact</span>{" "}
                                             <br />{" "}
                                             <span>
                                                 Us{" "}
                                                 <img
-                                                    src="../common/imgs/icons/arrow-top-right.svg"
+                                                    src="assets/imgs/icons/arrow-top-right.svg"
                                                     alt=""
                                                 />
                                             </span>
@@ -253,7 +252,7 @@ export default function Faq() {
                                     <div class="col-lg-5">
                                         <a href="#" class="logo md-mb50">
                                             <img
-                                                src="assets/imgs/Logo-light.svg"
+                                                src="/assets/imgs/copeai_logo_white.png"
                                                 alt=""
                                             />
                                         </a>
@@ -266,8 +265,10 @@ export default function Faq() {
                                                         location
                                                     </span>
                                                     <p>
-                                                        152 Thatcher Road St,
-                                                        Mahattan, NY 10463, US
+                                                        Teknokent, Reşitpaşa
+                                                        Mah. Katar Cad, Arı Çk.
+                                                        No:3 Binası B109, 34485
+                                                        Sarıyer/İstanbul
                                                     </p>
                                                 </div>
                                             </div>
@@ -276,13 +277,13 @@ export default function Faq() {
                                                     <span class="sub-color">
                                                         inquiry
                                                     </span>
-                                                    <p>hello@hubfolio.agency</p>
-                                                    <p>+0685689696</p>
+                                                    <p>info@copeai.com</p>
+                                                    <p>+90 542 504 2232</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 offset-lg-5">
+                                    {/* <div class="col-lg-6 offset-lg-5">
                                         <div class="social-icon">
                                             <a href="#0">
                                                 <i class="fa-brands fa-x-twitter"></i>
@@ -300,7 +301,7 @@ export default function Faq() {
                                                 <i class="fa-brands fa-github"></i>
                                             </a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -310,20 +311,19 @@ export default function Faq() {
                                     <div class="col-lg-8">
                                         <div class="copy sub-color md-mb30">
                                             <p>
-                                                © 2024{" "}
-                                                <a href="#0">Hubfolio Agency</a>
-                                                . All Right Reserved
+                                                © 2024 <a href="#0">CopeAI</a>.
+                                                All Right Reserved
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 d-flex justify-content-end">
                                         <div class="links sub-color d-flex justify-content-between">
-                                            <a href="#0" class="active">
+                                            <a href="/" class="active">
                                                 Home
                                             </a>
-                                            <a href="#0">Works</a>
-                                            <a href="#0">Studio</a>
-                                            <a href="#0">News</a>
+                                            <a href="/pricing">Pricing</a>
+                                            <a href="/faq">FAQ</a>
+                                            <a href="/contact">Contact</a>
                                         </div>
                                     </div>
                                 </div>
@@ -332,6 +332,7 @@ export default function Faq() {
                     </footer>
                 </div>
             </div>
+            
         </>
     );
 }

@@ -358,13 +358,13 @@
 }
 
 .intro-iner .accordion-item .accordion-header button:after {
-    background-image: url(/public/assets/imgs/pricing/plus-solid.svg);
+    background-image: url(/assets/imgs/pricing/plus-solid.svg);
     -webkit-filter: invert(1);
     filter: invert(1);
 }
 
 .intro-iner .accordion-item .accordion-header button:not(.collapsed):after {
-    background-image: url(/public/assets/imgs/pricing/minus-solid.svg);
+    background-image: url(/assets/imgs/pricing/minus-solid.svg);
 }
 
 .intro-iner .accordion-item .accordion-body {
@@ -1380,13 +1380,13 @@
 }
 
 .faqs-pg .accordion-item .accordion-header button:after {
-    background-image: url(/public/assets/imgs/pricing/plus-solid.svg);
+    background-image: url(/assets/imgs/pricing/plus-solid.svg);
     -webkit-filter: invert(1);
     filter: invert(1);
 }
 
 .faqs-pg .accordion-item .accordion-header button:not(.collapsed):after {
-    background-image: url(/public/assets/imgs/pricing/minus-solid.svg);
+    background-image: url(/assets/imgs/pricing/minus-solid.svg);
 }
 
 .faqs-pg .accordion-item .accordion-body {

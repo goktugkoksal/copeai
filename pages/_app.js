@@ -54,6 +54,17 @@ export default function App({ Component, pageProps }) {
                 src="assets/js/inner_pages.js"
                 strategy="beforeInteractive"
             ></Script>
+
+            <Script
+                src="copeai/public/js/gsap_lib/matter.js"
+                strategy="beforeInteractive"
+            ></Script>
+            <Script
+                src="/public/js/gsap_lib/throwable.js"
+                strategy="beforeInteractive"
+            ></Script>
+            <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></Script>
+            <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></Script>
         </Layout>
     );
 }

@@ -2,9 +2,9 @@ export default function Navbar() {
     return (
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="logo" href="#">
+                <a class="logo" href="/">
                     <img
-                        src="assets/imgs/copeai_long_logo.png"
+                        src="/assets/imgs/copeai_white_long_logo.png"
                         class="logo_img"
                         alt="logo"
                     />
@@ -21,7 +21,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="/pricing">
                                 Pricing
                             </a>
                         </li>
@@ -31,7 +31,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="/contact">
                                 Contact
                             </a>
                         </li>
