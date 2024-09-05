@@ -325,9 +325,8 @@ export default function Home() {
                                     <div class="col-lg-9">
                                         <div class="caption">
                                             <h1>
-                                                AI tools tailored just for{" "}
-                                                <br />
-                                                your needs
+                                                AI specific to <br />
+                                                your company
                                             </h1>
                                         </div>
                                         <div class="row md-hide">
@@ -431,17 +430,19 @@ export default function Home() {
                                     <div class="row">
                                         <div class="col-lg-4">
                                             <h6 class="sub-head">
-                                                Who we are?
+                                                What are we doing?
                                             </h6>
                                         </div>
                                         <div class="col-lg-8">
                                             <h3 class="text-indent">
-                                                As a tight-knit team of experts,
-                                                we develop cutting-edge AI
-                                                solutions and LLM models,
-                                                creating intelligent tools that
-                                                drive business innovation and
-                                                growth.
+                                                We offer tailored artifical
+                                                intelligence support that
+                                                seamlessly integrates with your
+                                                company's tools -such as CRM,
+                                                Drive, Slack and Teams- enabling
+                                                deep learning and enhanced
+                                                performance across all
+                                                platforms.
                                             </h3>
                                             <a href="#" class="crv-butn mt-40">
                                                 <div class="d-flex">
@@ -766,7 +767,7 @@ export default function Home() {
                                                     <div>
                                                         <h6>
                                                             Company-Specific{" "}
-                                                            <br /> AI-Tools
+                                                            <br /> AI ONE
                                                         </h6>
                                                     </div>
                                                     <div class="ml-auto">
@@ -780,15 +781,14 @@ export default function Home() {
                                                 </div>
                                                 <div class="text">
                                                     <p>
-                                                        Our team crafts bespoke
-                                                        AI tools tailored to
-                                                        your company’s unique
-                                                        needs, integrating
-                                                        seamlessly with existing
-                                                        systems to automate
-                                                        processes, enhance
-                                                        decision-making, and
-                                                        drive innovation.
+                                                        We provide artifical
+                                                        intelligence support
+                                                        specific to your
+                                                        company, which can
+                                                        perform deep learning
+                                                        with all the tools your
+                                                        company uses(CRM, Drive,
+                                                        Slack, Teams).
                                                     </p>
                                                 </div>
                                             </div>
@@ -807,9 +807,9 @@ export default function Home() {
                                                 <div class="d-flex align-items-center">
                                                     <div>
                                                         <h6>
-                                                            Creating Images,{" "}
-                                                            <br /> Contracts and
-                                                            More
+                                                            Specialized AI{" "}
+                                                            <br /> For Your
+                                                            Company
                                                         </h6>
                                                     </div>
                                                     <div class="ml-auto">
@@ -823,15 +823,13 @@ export default function Home() {
                                                 </div>
                                                 <div class="text">
                                                     <p>
-                                                        Utilizing
-                                                        state-of-the-art AI, we
-                                                        generate custom images,
-                                                        draft precise contracts,
-                                                        and offer comprehensive
-                                                        creative solutions that
-                                                        empower your brand to
-                                                        stand out in a
-                                                        competitive market.
+                                                        Streamline your business
+                                                        process with an AI tool
+                                                        that connects to all
+                                                        your company's tools and
+                                                        leverages deep learning.
+                                                        Trusted answers grounded
+                                                        in your enterprise data.
                                                     </p>
                                                 </div>
                                             </div>
@@ -846,7 +844,6 @@ export default function Home() {
                                 </div>
                             </div>
                         </section>
-
 
                         {/* <section class="services-dm sub-bg radius-30 section-padding">
                             <div class="container section-padding pt-0">

@@ -217,7 +217,7 @@ export default function Contact() {
                                     <div class="col-lg-5">
                                         <a href="#" class="logo md-mb50">
                                             <img
-                                                src="assets/imgs/copeai_logo_white.png"
+                                                src="assets/imgs/copeai_white_long_logo.png"
                                                 alt=""
                                             />
                                         </a>
@@ -230,8 +230,10 @@ export default function Contact() {
                                                         location
                                                     </span>
                                                     <p>
-                                                        152 Thatcher Road St,
-                                                        Mahattan, NY 10463, US
+                                                        Teknokent, Reşitpaşa
+                                                        Mah. Katar Cad, Arı Çk.
+                                                        No:3 Binası B109, 34485
+                                                        Sarıyer/İstanbul
                                                     </p>
                                                 </div>
                                             </div>
@@ -240,8 +242,8 @@ export default function Contact() {
                                                     <span class="sub-color">
                                                         inquiry
                                                     </span>
-                                                    <p>hello@hubfolio.agency</p>
-                                                    <p>+0685689696</p>
+                                                    <p>info@copeai.com</p>
+                                                    <p>+90 542 504 2232</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -274,20 +276,19 @@ export default function Contact() {
                                     <div class="col-lg-8">
                                         <div class="copy sub-color md-mb30">
                                             <p>
-                                                © 2024{" "}
-                                                <a href="#0">Hubfolio Agency</a>
-                                                . All Right Reserved
+                                                © 2024 <a href="#0">CopeAI</a>.
+                                                All Right Reserved
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 d-flex justify-content-end">
                                         <div class="links sub-color d-flex justify-content-between">
-                                            <a href="#0" class="active">
-                                                Home
+                                            <a href="/">Home</a>
+                                            <a href="/pricing">Pricing</a>
+                                            <a href="/faq">FAQ</a>
+                                            <a href="/contact" class="active">
+                                                Contact
                                             </a>
-                                            <a href="#0">Works</a>
-                                            <a href="#0">Studio</a>
-                                            <a href="#0">News</a>
                                         </div>
                                     </div>
                                 </div>

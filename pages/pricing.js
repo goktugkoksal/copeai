@@ -22,10 +22,10 @@ export default function Pricing() {
                                         <div class="item md-mb50">
                                             <div class="head text-center pb-40 bord-thin-bottom-light">
                                                 <h6 class="text-u fz-20 mb-40">
-                                                    Basic pack
+                                                    Just AI ONE
                                                 </h6>
                                                 <h2 class="fz-70 mb-5">
-                                                    $9.99
+                                                    $14.99
                                                 </h2>
                                                 <span class="sub-color">
                                                     Per Month
@@ -33,16 +33,9 @@ export default function Pricing() {
                                             </div>
                                             <div class="list mt-40">
                                                 <ul class="rest">
-                                                    <li>
-                                                        Adipiscing elit sed do.
-                                                    </li>
-                                                    <li>
-                                                        Eusmod tempor incididunt
-                                                        ut.
-                                                    </li>
-                                                    <li>
-                                                        labore et dolore magna.
-                                                    </li>
+                                                    <li>All Tools</li>
+                                                    <li>CopeAI Panel</li>
+                                                    <li>Llama 3.1 70B Model</li>
                                                 </ul>
                                             </div>
                                             <div class="text-center mt-40">
@@ -67,7 +60,7 @@ export default function Pricing() {
                                         <div class="item md-mb50">
                                             <div class="head text-center pb-40 bord-thin-bottom-light">
                                                 <h6 class="text-u fz-20 mb-40">
-                                                    Standard pack
+                                                    Cloud API
                                                 </h6>
                                                 <h2 class="fz-70 mb-5">
                                                     $29.99
@@ -79,14 +72,14 @@ export default function Pricing() {
                                             <div class="list mt-40">
                                                 <ul class="rest">
                                                     <li>
-                                                        Adipiscing elit sed do.
+                                                        Specific Integrated to
+                                                        your business
                                                     </li>
                                                     <li>
-                                                        Eusmod tempor incididunt
-                                                        ut.
+                                                        AI ONE and Your Panel
                                                     </li>
                                                     <li>
-                                                        labore et dolore magna.
+                                                        You can select a model
                                                     </li>
                                                 </ul>
                                             </div>
@@ -112,26 +105,27 @@ export default function Pricing() {
                                         <div class="item">
                                             <div class="head text-center pb-40 bord-thin-bottom-light">
                                                 <h6 class="text-u fz-20 mb-40">
-                                                    Premium pack
+                                                    Business Pack
                                                 </h6>
                                                 <h2 class="fz-70 mb-5">
-                                                    $49.99
+                                                    Let's Talk
                                                 </h2>
-                                                <span class="sub-color">
-                                                    Per Month
-                                                </span>
                                             </div>
                                             <div class="list mt-40">
                                                 <ul class="rest">
                                                     <li>
-                                                        Adipiscing elit sed do.
+                                                        Special integration into
+                                                        company workflow
+                                                        processes
                                                     </li>
                                                     <li>
-                                                        Eusmod tempor incididunt
-                                                        ut.
+                                                        Trusted answers grounded
+                                                        in your company's data.
                                                     </li>
                                                     <li>
-                                                        labore et dolore magna.
+                                                        One centralized platform
+                                                        to build with security
+                                                        and speed
                                                     </li>
                                                 </ul>
                                             </div>
@@ -481,8 +475,10 @@ export default function Pricing() {
                                                         location
                                                     </span>
                                                     <p>
-                                                        152 Thatcher Road St,
-                                                        Mahattan, NY 10463, US
+                                                        Teknokent, Reşitpaşa
+                                                        Mah. Katar Cad, Arı Çk.
+                                                        No:3 Binası B109, 34485
+                                                        Sarıyer/İstanbul
                                                     </p>
                                                 </div>
                                             </div>
@@ -532,12 +528,12 @@ export default function Pricing() {
                                     </div>
                                     <div class="col-lg-4 d-flex justify-content-end">
                                         <div class="links sub-color d-flex justify-content-between">
-                                            <a href="/" class="active">
-                                                Home
+                                            <a href="/">Home</a>
+                                            <a href="/pricing" class="active">
+                                                Pricing
                                             </a>
-                                            <a href="/pricing">Pricing</a>
                                             <a href="/faq">FAQ</a>
-                                            <a href="#0">Contact</a>
+                                            <a href="/contact">Contact</a>
                                         </div>
                                     </div>
                                 </div>

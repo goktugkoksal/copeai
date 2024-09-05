@@ -68,8 +68,8 @@ export default function Footer() {
                         <div class="col-lg-8">
                             <div class="copy sub-color md-mb50">
                                 <p>
-                                    © 2024
-                                    <a href="#0">CopeAI</a>. All Right
+                                    © 2024 {" "}
+                                    <a href="/">CopeAI</a>. All Right
                                     Reserved
                                 </p>
                             </div>

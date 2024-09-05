@@ -252,7 +252,7 @@ export default function Faq() {
                                     <div class="col-lg-5">
                                         <a href="#" class="logo md-mb50">
                                             <img
-                                                src="/assets/imgs/copeai_logo_white.png"
+                                                src="/assets/imgs/copeai_white_long_logo.png"
                                                 alt=""
                                             />
                                         </a>
@@ -318,11 +318,11 @@ export default function Faq() {
                                     </div>
                                     <div class="col-lg-4 d-flex justify-content-end">
                                         <div class="links sub-color d-flex justify-content-between">
-                                            <a href="/" class="active">
-                                                Home
-                                            </a>
+                                            <a href="/">Home</a>
                                             <a href="/pricing">Pricing</a>
-                                            <a href="/faq">FAQ</a>
+                                            <a href="/faq" class="active">
+                                                FAQ
+                                            </a>
                                             <a href="/contact">Contact</a>
                                         </div>
                                     </div>
@@ -332,7 +332,6 @@ export default function Faq() {
                     </footer>
                 </div>
             </div>
-            
         </>
     );
 }
