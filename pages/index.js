@@ -802,8 +802,9 @@ export default function Home() {
                                                 <div class="d-flex align-items-center">
                                                     <div>
                                                         <h6>
-                                                            ChatBot and <br />{" "}
-                                                            WebSearch
+                                                            Specialized
+                                                            <br />
+                                                            AI Panel
                                                         </h6>
                                                     </div>
                                                     <div class="ml-auto">
@@ -817,15 +818,13 @@ export default function Home() {
                                                 </div>
                                                 <div class="text">
                                                     <p>
-                                                        We develop intelligent
-                                                        ChatBots and advanced
-                                                        WebSearch that enhance
-                                                        user interaction and
-                                                        streamline customer
-                                                        support, ensuring your
-                                                        clients find exactly
-                                                        what they need with
-                                                        minimal effort.
+                                                        You can have panels
+                                                        dedicated and customized
+                                                        to your company's
+                                                        departments. For
+                                                        example, custom setups
+                                                        that your designers can
+                                                        develop in many ways.
                                                     </p>
                                                 </div>
                                             </div>
@@ -948,9 +947,7 @@ export default function Home() {
                                                         <i class="fas fa-star"></i>
                                                     </span> */}
                                                 </h6>
-                                                <p>
-                                                    Based on 24 reviews
-                                                </p>
+                                                <p>Based on 24 reviews</p>
                                             </div>
                                         </div>
                                     </div>

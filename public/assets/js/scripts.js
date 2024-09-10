@@ -63,6 +63,8 @@ $(function () {
         },
     });
 
+    console.log("asd");
+
     var process = new Swiper(".process-mp .process-swiper", {
         slidesPerView: 2,
         spaceBetween: 30,

@@ -54,10 +54,8 @@ export default function Faq() {
                                                                 aria-expanded="false"
                                                                 aria-controls="collapse2"
                                                             >
-                                                                Why’s Hubfolio
-                                                                instead of
-                                                                full-time
-                                                                designer?
+                                                                Is CopeAI
+                                                                secure?
                                                             </button>
                                                         </h4>
                                                         <div
@@ -68,20 +66,32 @@ export default function Faq() {
                                                         >
                                                             <div class="accordion-body">
                                                                 <p>
-                                                                    How quick is
-                                                                    quick? For
-                                                                    most design,
-                                                                    we’re
-                                                                    talking 2-3
-                                                                    business
-                                                                    days. We
-                                                                    balance
-                                                                    speed with
-                                                                    quality,ensuring
-                                                                    you get
-                                                                    top-north
-                                                                    design
-                                                                    swiftly
+                                                                    Yes, CopeAI
+                                                                    operates
+                                                                    entirely on
+                                                                    your local
+                                                                    network, and
+                                                                    no data is
+                                                                    transmitted
+                                                                    externally.
+                                                                    Your data
+                                                                    remains
+                                                                    fully under
+                                                                    your control
+                                                                    without
+                                                                    being shared
+                                                                    with third
+                                                                    parties.
+                                                                    Additionally,
+                                                                    blockchain
+                                                                    technology
+                                                                    enhances
+                                                                    data
+                                                                    security,
+                                                                    and all
+                                                                    processes
+                                                                    are
+                                                                    encrypted.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -99,8 +109,9 @@ export default function Faq() {
                                                                 aria-expanded="false"
                                                                 aria-controls="collapse3"
                                                             >
-                                                                Speed of design
-                                                                delivery?
+                                                                How does the
+                                                                installation
+                                                                work?
                                                             </button>
                                                         </h4>
                                                         <div
@@ -111,20 +122,29 @@ export default function Faq() {
                                                         >
                                                             <div class="accordion-body">
                                                                 <p>
-                                                                    How quick is
-                                                                    quick? For
-                                                                    most design,
-                                                                    we’re
-                                                                    talking 2-3
-                                                                    business
-                                                                    days. We
-                                                                    balance
-                                                                    speed with
-                                                                    quality,ensuring
-                                                                    you get
-                                                                    top-north
-                                                                    design
-                                                                    swiftly
+                                                                    The
+                                                                    installation
+                                                                    of CopeAI is
+                                                                    quite
+                                                                    simple. Our
+                                                                    technical
+                                                                    team ensures
+                                                                    that the
+                                                                    platform
+                                                                    integrates
+                                                                    with your
+                                                                    company's
+                                                                    existing
+                                                                    systems. We
+                                                                    guide you
+                                                                    throughout
+                                                                    the
+                                                                    installation
+                                                                    process, and
+                                                                    it will be
+                                                                    ready for
+                                                                    use in a
+                                                                    short time.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -142,9 +162,7 @@ export default function Faq() {
                                                                 aria-expanded="false"
                                                                 aria-controls="collapse3"
                                                             >
-                                                                What’s the
-                                                                Hubfolio
-                                                                progress like?
+                                                                What is AI ONE?
                                                             </button>
                                                         </h4>
                                                         <div
@@ -155,20 +173,31 @@ export default function Faq() {
                                                         >
                                                             <div class="accordion-body">
                                                                 <p>
-                                                                    How quick is
-                                                                    quick? For
-                                                                    most design,
-                                                                    we’re
-                                                                    talking 2-3
+                                                                    AI ONE is
+                                                                    the AI
+                                                                    engine at
+                                                                    the core of
+                                                                    CopeAI. This
+                                                                    engine
+                                                                    combines
+                                                                    various AI
+                                                                    tools into a
+                                                                    single
+                                                                    platform,
+                                                                    allowing for
+                                                                    content
+                                                                    creation,
+                                                                    analysis,
+                                                                    and
+                                                                    prediction.
+                                                                    AI ONE
+                                                                    optimizes
+                                                                    your
                                                                     business
-                                                                    days. We
-                                                                    balance
-                                                                    speed with
-                                                                    quality,ensuring
-                                                                    you get
-                                                                    top-north
-                                                                    design
-                                                                    swiftly
+                                                                    processes
+                                                                    and
+                                                                    increases
+                                                                    efficiency.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -186,8 +215,11 @@ export default function Faq() {
                                                                 aria-expanded="false"
                                                                 aria-controls="collapse3"
                                                             >
-                                                                How to request a
-                                                                design?
+                                                                What advantage
+                                                                will I have once
+                                                                the entire
+                                                                system is
+                                                                integrated?
                                                             </button>
                                                         </h4>
                                                         <div
@@ -198,20 +230,46 @@ export default function Faq() {
                                                         >
                                                             <div class="accordion-body">
                                                                 <p>
-                                                                    How quick is
-                                                                    quick? For
-                                                                    most design,
-                                                                    we’re
-                                                                    talking 2-3
+                                                                    CopeAI
+                                                                    integrates
+                                                                    with your
+                                                                    existing
                                                                     business
-                                                                    days. We
-                                                                    balance
-                                                                    speed with
-                                                                    quality,ensuring
-                                                                    you get
-                                                                    top-north
-                                                                    design
-                                                                    swiftly
+                                                                    tools
+                                                                    (Drive,
+                                                                    Teams,
+                                                                    Slack, etc.)
+                                                                    to collect
+                                                                    and analyze
+                                                                    all your
+                                                                    data in one
+                                                                    place. This
+                                                                    allows you
+                                                                    to manage
+                                                                    your
+                                                                    business
+                                                                    processes
+                                                                    faster and
+                                                                    more
+                                                                    effectively.
+                                                                    Additionally,
+                                                                    having
+                                                                    various AI
+                                                                    solutions in
+                                                                    one platform
+                                                                    saves time
+                                                                    and reduces
+                                                                    costs. You
+                                                                    will also
+                                                                    gain more
+                                                                    accurate
+                                                                    predictions
+                                                                    and analyses
+                                                                    based on
+                                                                    your data,
+                                                                    giving you a
+                                                                    competitive
+                                                                    edge.
                                                                 </p>
                                                             </div>
                                                         </div>
