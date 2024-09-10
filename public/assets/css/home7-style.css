@@ -221,7 +221,6 @@
     height: 250px;
 }
 
-
 .services-sa .item .cont .icon.invert img {
     -webkit-filter: invert(1);
     filter: invert(1);
@@ -1234,4 +1233,191 @@ p {
     .testimonials-dm .sec-head .states .ml-80 {
         margin-left: 15px !important;
     }
+}
+
+.testimonials-mp {
+    position: relative;
+    overflow: hidden !important;
+}
+
+.testimonials-mp .brush {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+}
+
+.testimonials-mp .sec-head .gl-rate {
+    margin: 40px auto 0;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.testimonials-mp .sec-head .gl-rate .icon {
+    width: 45px;
+}
+
+.testimonials-mp .sec-head .gl-rate .cont {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.testimonials-mp .sec-head .gl-rate .cont h6 {
+    line-height: 1;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.testimonials-mp .sec-head .gl-rate .cont .stars {
+    font-size: 13px;
+    color: #ef2b10;
+    margin-left: 10px;
+}
+
+.testimonials-mp .sec-head .gl-rate .cont p {
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.testimonials-mp .testim-swiper {
+    position: relative;
+    overflow: visible;
+    padding: 150px 0 250px;
+    background-image: url(/assest/imgs/testim/global.png);
+    background-size: 60%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.testimonials-mp .swiper-slide {
+    margin-right: -50px;
+    width: 400px;
+    height: auto;
+}
+
+.testimonials-mp .item {
+    padding: 40px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.testimonials-mp .item .info p {
+    font-size: 14px;
+}
+
+.testimonials-mp .item .info span {
+    font-size: 16px;
+}
+
+.testimonials-mp .item .info .img-author {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonials-mp .item:hover {
+    z-index: 5;
+}
+
+.testimonials-mp .gray {
+    background: #eeeeee;
+    color: #000;
+    -webkit-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.testimonials-mp .colorful {
+    background: var(--main-color);
+    color: #000;
+    -webkit-transform: rotate(2deg) translateY(80px);
+    -ms-transform: rotate(2deg) translateY(80px);
+    transform: rotate(2deg) translateY(80px);
+    z-index: 3;
+}
+
+.testimonials-mp .darklen {
+    background: #151515;
+    color: #fff;
+    -webkit-transform: rotate(2deg) translateY(-50px);
+    -ms-transform: rotate(2deg) translateY(-50px);
+    transform: rotate(2deg) translateY(-50px);
+}
+
+.testimonials-mp .darklen p {
+    color: #d1d1d1;
+}
+
+.testimonials-mp .lighten {
+    background: #fff;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    z-index: 3;
+}
+
+.box-light {
+    background-color: #fff;
+    color: #000;
+    position: relative;
+    border-radius: 0 0 30px 30px;
+    z-index: 4;
+}
+
+.box-light .layers {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    right: 30px;
+    bottom: -10px;
+    background: #fff;
+    border-radius: 15px;
+    opacity: .7;
+    z-index: -1;
+}
+
+.box-light .layers:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    right: 20px;
+    bottom: -10px;
+    background: #fff;
+    border-radius: 15px;
+    opacity: .7;
+    z-index: -1;
+}
+
+.box-light.botm-box {
+    border-radius: 30px 30px 0 0;
+    margin-top: -50px;
+}
+
+.box-light.botm-box .layers {
+    top: -10px;
+    bottom: 5;
+}
+
+.box-light.botm-box .layers:after {
+    top: -10px;
+    bottom: 5px;
 }

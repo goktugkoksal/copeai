@@ -189,7 +189,7 @@ export default function Contact() {
                                                                 <div class="d-flex align-items-center">
                                                                     <span>
                                                                         Let's
-                                                                        Talking
+                                                                        Talk
                                                                     </span>
                                                                     <span class="icon ml-10">
                                                                         <img

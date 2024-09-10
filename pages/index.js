@@ -463,7 +463,7 @@ export default function Home() {
                             </div>
                         </section>
 
-                        <section class="clients-dm">
+                        {/* <section class="clients-dm">
                             <div class="main-marq shadow-off">
                                 <div class="slide-har st1">
                                     <div class="box">
@@ -528,6 +528,83 @@ export default function Home() {
                                                 src="assets/imgs/brands/5.svg"
                                                 alt=""
                                             />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section> */}
+
+                        <section class="marq-sa section-padding">
+                            <div class="main-marq shadow-off">
+                                <div class="slide-har st1">
+                                    <div class="box">
+                                        <div class="item">
+                                            <h2>
+                                                <span>Chat Bot</span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>
+                                                    Company-Specific AI-Tools
+                                                </span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>Flexiable Price</span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>Web Search</span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>
+                                                    Company-Specific AI-Tools
+                                                </span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>Flexiable Price</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="item">
+                                            <h2>
+                                                <span>Web Search</span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>
+                                                    Company-Specific AI-Tools
+                                                </span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>Flexiable Price</span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>Chat Bot</span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>Web Search</span>
+                                            </h2>
+                                        </div>
+                                        <div class="item">
+                                            <h2>
+                                                <span>Flexiable Price</span>
+                                            </h2>
                                         </div>
                                     </div>
                                 </div>
@@ -842,6 +919,262 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </section>
+
+                        <section class="box-dark botm-box">
+                            <div class="layers"></div>
+                            <div class="testimonials-mp section-padding">
+                                <div class="container-fluid">
+                                    <div class="sec-head text-center mb-40">
+                                        <h2>
+                                            <span>Client’s</span> reviews
+                                        </h2>
+                                        <div class="gl-rate d-flex align-items-center">
+                                            <div class="icon">
+                                                <img
+                                                    src="/assets/imgs/copeai_logo_white.png"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="cont">
+                                                <h6>
+                                                    4.9/5
+                                                    {/* <span class="stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span> */}
+                                                </h6>
+                                                <p>
+                                                    Based on 24 reviews
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper testim-swiper swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="item gray">
+                                                    <div>
+                                                        <h6>
+                                                            “A rebrand is not
+                                                            typically done in a
+                                                            chaotic, archaic
+                                                            industry like ours,
+                                                            so their work has
+                                                            really set us apart.
+                                                            10/10 for Hub’s
+                                                            team."
+                                                        </h6>
+                                                    </div>
+                                                    <div class="info d-flex align-items-center mt-60">
+                                                        <div class="info-text">
+                                                            <p>
+                                                                CEO & Founder,
+                                                                Archin Studio
+                                                            </p>
+                                                            <span>
+                                                                B. Gordon
+                                                            </span>
+                                                        </div>
+                                                        <div class="ml-auto">
+                                                            <div class="img-author fit-img">
+                                                                <img
+                                                                    src="/assets/imgs/testim/avatar1.jpg"
+                                                                    alt=""
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item colorful">
+                                                    <div>
+                                                        <h6>
+                                                            “Thanks for the
+                                                            support of Hubfolio
+                                                            team, who have been
+                                                            with our business
+                                                            for more than 3
+                                                            years. A long
+                                                            journey with many
+                                                            exciting experiences
+                                                            and moments.”
+                                                        </h6>
+                                                    </div>
+                                                    <div class="info d-flex align-items-center mt-60">
+                                                        <div class="info-text">
+                                                            <p>
+                                                                Project
+                                                                Managerment at
+                                                                Zumar Inc
+                                                            </p>
+                                                            <span>
+                                                                d. Szoboslai
+                                                            </span>
+                                                        </div>
+                                                        <div class="ml-auto">
+                                                            <div class="img-author fit-img">
+                                                                <img
+                                                                    src="/assets/imgs/testim/avatar2.jpg"
+                                                                    alt=""
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item darklen">
+                                                    <div>
+                                                        <h6>
+                                                            “Hubfolio ability to
+                                                            create a high
+                                                            quality user
+                                                            interface stands
+                                                            out. It’s something
+                                                            we placed a premium
+                                                            on.Recommended!.”
+                                                        </h6>
+                                                    </div>
+                                                    <div class="info d-flex align-items-center mt-60">
+                                                        <div class="info-text">
+                                                            <p>
+                                                                Marketing
+                                                                Manager, OKG
+                                                            </p>
+                                                            <span>
+                                                                T. Morthy
+                                                            </span>
+                                                        </div>
+                                                        <div class="ml-auto">
+                                                            <div class="img-author fit-img">
+                                                                <img
+                                                                    src="/assets/imgs/testim/avatar3.jpg"
+                                                                    alt=""
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item lighten">
+                                                    <div>
+                                                        <h6>
+                                                            "The Hubfolio team
+                                                            truly amplified our
+                                                            messaging through
+                                                            their expert use of
+                                                            visuals."
+                                                        </h6>
+                                                    </div>
+                                                    <div class="info d-flex align-items-center mt-60">
+                                                        <div class="info-text">
+                                                            <p>
+                                                                President, Newz
+                                                                Jsc
+                                                            </p>
+                                                            <span>
+                                                                J. Arron
+                                                            </span>
+                                                        </div>
+                                                        <div class="ml-auto">
+                                                            <div class="img-author fit-img">
+                                                                <img
+                                                                    src="/assets/imgs/testim/avatar4.jpg"
+                                                                    alt=""
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item gray">
+                                                    <div>
+                                                        <h6>
+                                                            “A rebrand is not
+                                                            typically done in a
+                                                            chaotic, archaic
+                                                            industry like ours,
+                                                            so their work has
+                                                            really set us apart.
+                                                            10/10 for Hub’s
+                                                            team."
+                                                        </h6>
+                                                    </div>
+                                                    <div class="info d-flex align-items-center mt-60">
+                                                        <div class="info-text">
+                                                            <p>
+                                                                CEO & Founder,
+                                                                Archin Studio
+                                                            </p>
+                                                            <span>
+                                                                B. Gordon
+                                                            </span>
+                                                        </div>
+                                                        <div class="ml-auto">
+                                                            <div class="img-author fit-img">
+                                                                <img
+                                                                    src="/assets/imgs/testim/avatar1.jpg"
+                                                                    alt=""
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item colorful">
+                                                    <div>
+                                                        <h6>
+                                                            “Thanks for the
+                                                            support of Hubfolio
+                                                            team, who have been
+                                                            with our business
+                                                            for more than 3
+                                                            years. A long
+                                                            journey with many
+                                                            exciting experiences
+                                                            and moments.”
+                                                        </h6>
+                                                    </div>
+                                                    <div class="info d-flex align-items-center mt-60">
+                                                        <div class="info-text">
+                                                            <p>
+                                                                Project
+                                                                Managerment at
+                                                                Zumar Inc
+                                                            </p>
+                                                            <span>
+                                                                d. Szoboslai
+                                                            </span>
+                                                        </div>
+                                                        <div class="ml-auto">
+                                                            <div class="img-author fit-img">
+                                                                <img
+                                                                    src="/assets/imgs/testim/avatar2.jpg"
+                                                                    alt=""
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="brush">
+                                    <img
+                                        src="/assets/imgs/header/brush.svg"
+                                        alt=""
+                                    />
+                                </span>
                             </div>
                         </section>
 
@@ -1241,83 +1574,6 @@ export default function Home() {
                                 </div>
                             </div>
                         </section> */}
-
-                        <section class="marq-sa section-padding">
-                            <div class="main-marq shadow-off">
-                                <div class="slide-har st1">
-                                    <div class="box">
-                                        <div class="item">
-                                            <h2>
-                                                <span>Chat Bot</span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>
-                                                    Company-Specific AI-Tools
-                                                </span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>Flexiable Price</span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>Web Search</span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>
-                                                    Company-Specific AI-Tools
-                                                </span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>Flexiable Price</span>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="box">
-                                        <div class="item">
-                                            <h2>
-                                                <span>Web Search</span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>
-                                                    Company-Specific AI-Tools
-                                                </span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>Flexiable Price</span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>Chat Bot</span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>Web Search</span>
-                                            </h2>
-                                        </div>
-                                        <div class="item">
-                                            <h2>
-                                                <span>Flexiable Price</span>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
 
                         {/* <section class="blog-sa">
                             <div class="container section-padding">
