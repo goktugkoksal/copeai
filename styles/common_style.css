@@ -3180,3 +3180,15 @@ img.left {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+.modal-backdrop.show {
+    display: none;
+    z-index: 99999 !important;
+}
+.modal .modal-dialog .modal-content {
+    z-index: 99999;
+}
+
+.modalZIndex {
+    z-index: 99999 !important;
+}

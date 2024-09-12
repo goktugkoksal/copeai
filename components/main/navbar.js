@@ -1,5 +1,3 @@
-
-
 export default function Navbar() {
     return (
         <>
@@ -41,7 +39,12 @@ export default function Navbar() {
                         </ul>
                     </div>
                     <div class="topnav d-flex align-items-center">
-                        <a href="#" class="butn butn-rounded">
+                        <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#getdemoModal"
+                            class="butn butn-rounded"
+                        >
                             <div class="d-flex align-items-center">
                                 <span>Request Demo</span>
                                 <span class="icon ml-10">
@@ -390,6 +393,94 @@ export default function Navbar() {
                                 <h5 class="underline">
                                     <a href="#0">+1 840 841 25 69</a>
                                 </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="modal fade modalZIndex"
+                id="getdemoModal"
+                tabindex="-1"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+                    <div class="container">
+                        <div class="user-data-form modal-content">
+                            <button
+                                type="button"
+                                class="btn-close btn-close-white"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                            <div class="form-wrapper m-auto">
+                                <div class="tab-content mt-30">
+                                    <div
+                                        class="tab-pane show active"
+                                        role="tabpanel"
+                                        id="fc1"
+                                    >
+                                        <div class="text-center mb-20">
+                                            <h2>Demo Request</h2>
+                                        </div>
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="input-group-meta position-relative mb-25">
+                                                        <label>Name*</label>
+                                                        <input type="email" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <div class="input-group-meta position-relative mb-25">
+                                                        <label>Surname*</label>
+                                                        <input type="email" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group-meta position-relative mb-20">
+                                                        <label>
+                                                            Company Name*
+                                                        </label>
+                                                        <input type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group-meta position-relative mb-20">
+                                                        <label>
+                                                            Your Title*
+                                                        </label>
+                                                        <input type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group-meta position-relative mb-25">
+                                                        <label>Email*</label>
+                                                        <input
+                                                            type="email"
+                                                            placeholder="Youremail@gmail.com"
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group-meta position-relative mb-20">
+                                                        <label>
+                                                            Phone Number*
+                                                        </label>
+                                                        <input type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="getdemo-butn butn-rounded w-100 tran3s d-block mb-20 mt-20">
+                                                        Send Demo Request
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

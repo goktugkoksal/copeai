@@ -5764,7 +5764,7 @@ fieldset:disabled .btn {
 }
 
 .btn-close {
-    box-sizing: content-box;
+    box-sizing:border-box;
     width: 1em;
     height: 1em;
     padding: .25em .25em;
@@ -5772,10 +5772,10 @@ fieldset:disabled .btn {
     background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
     border: 0;
     border-radius: .25rem;
-    opacity: .5
+
 }
 
-.btn-close:hover {
+.btn-close:hover,.btn-close-white:hover {
     color: #000;
     text-decoration: none;
     opacity: .75
@@ -5918,7 +5918,7 @@ fieldset:disabled .btn {
     flex-direction: column;
     width: 100%;
     pointer-events: auto;
-    background-color: #fff;
+    background-color: #17181a;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: .3rem;
@@ -6024,8 +6024,9 @@ fieldset:disabled .btn {
 
 .modal-fullscreen .modal-content {
     height: 100%;
+    max-width: 720px;
     border: 0;
-    border-radius: 0
+    border-radius: 15px;
 }
 
 .modal-fullscreen .modal-header {
